@@ -1,9 +1,11 @@
 // Import Google fonts
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700|Work+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 
 // Define fonts for body and headers
-$body-font: "Work Sans", "Helvetica", "sans-serif";
-$headers-font: "Quicksand", "Helvetica", "sans-serif";
+$body-font: "Source Sans3";
+$headers-font: "Source Serif4";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -14,3 +16,49 @@ $headers-font: "Quicksand", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+span {
+  display: inline-block;
+}
+
+.project-name {
+  font-family: "Source Sans3", sans-serif;
+  font-size: 20px;
+  margin-left: 12px;
+  font-weight: 200;
+  color: #3b8586;
+}
+
+.job-title {
+  font-family: "Source Sans", sans-serif;
+  color: #3b8586;
+  font-size: 16px;
+  margin-left: 12px;
+  font-weight: 200;
+}
+
+.section-name {
+  font-family: "Source Sans", sans-serif;
+  color: #3b8586;
+  font-size: 16px;
+  margin-left: 12px;
+  font-weight: 200;
+  background-color: #3b85861f;
+}
+
+.name {
+  font-family: "Source Serif", serif;
+  color: #3b8586;
+  font-size: 48px;
+  font-style: Italic;
+  font-weight: 100;
+  margin-left: 12px;
+}
+
+.custom-margin2 {
+  margin-top: 60px;
+}
+
+.custom-margin{
+  margin-top: 80px;
+}
