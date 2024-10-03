@@ -1,34 +1,21 @@
-- name: Longest Word Game
+- name: Your Perfect Travel Itinerary
   description: Decent description of the app
-  image: projects/placeholder.png
+  image: projects/travel.png
+  video:
   url: https://www.google.com
   github: https://www.github.com
   online: true
 
-- name: Movie Watchlist
+- name: Form - Calisthenics App
   description: Decent description of the app
-  image: projects/placeholder.png
+  image: projects/form.png
   url: https://www.google.com
   github: https://www.github.com
   online: true
 
-- name: Airbnb
+- name: Turbo - Sports Car Rental
   description: Decent description of the app
-  image: projects/placeholder.png
+  image: projects/turbo.png
   url: https://www.google.com
   github: https://www.github.com
   online: true
-
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
-  online: true
-
-- name: Yelp
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
-  online: false

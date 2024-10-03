@@ -1,12 +1,10 @@
 <div>
   <div class="d-flex flex-column custom-margin">
-    <span class="section-name">About</span>
-
+    <%= link_to 'About', '/about.html', :class => "section-name" %>
     <span class="section-name custom-margin2">Web Development Projects</span>
-    <% project_names = [ 'Your Perfect Travel Itinerary', 'Form-Calisthenics App', 'Turbo-Sports Car Rental']  %>
-    <% project_names.each_with_index do |name, i| %>
+    <% data.projects.each_with_index do | project, i| %>
       <% index = "#{(i+1)}".rjust(3, '0') %>
-      <span class="project-name"><%= "#{index} | #{name}"%></span>
+      <%= link_to "#{index} | #{project.name}", "/project.html", :class => "project-name", :locals => { :name => "#{project.name}" } %>
     <% end %>
     <span class="section-name custom-margin2">Daily Coding</span>
     <% daily_names = [ 'coming soon' ] %>
