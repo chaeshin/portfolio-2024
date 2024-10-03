@@ -30,6 +30,14 @@ span {
   text-decoration: none;
 }
 
+.project-name-heading {
+  font-family: "Source sans", sans-serif;
+  color: #3b8586;
+  font-size: 48px;
+  font-weight: 100;
+  margin-left: 12px;
+}
+
 .job-title {
   font-family: "Source Sans", sans-serif;
   color: #3b8586;
@@ -49,13 +57,14 @@ span {
 }
 
 .name {
-  font-family: "Source Serif", serif;
+  font-family: "Source Serif4", serif;
   color: #3b8586;
   font-size: 48px;
   font-style: Italic;
   font-weight: 100;
   margin-left: 12px;
 }
+
 
 
 .custom-margin2 {

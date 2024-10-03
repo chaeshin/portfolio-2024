@@ -4,7 +4,7 @@
     <span class="section-name custom-margin2">Web Development Projects</span>
     <% data.projects.each_with_index do | project, i| %>
       <% index = "#{(i+1)}".rjust(3, '0') %>
-      <%= link_to "#{index} | #{project.name}", "/project.html", :class => "project-name", :locals => { :name => "#{project.name}" } %>
+      <%= link_to "#{index} | #{project.name}", "../project.html.erb", :class => "project-name", :locals => { :name => "#{project.name}" } %>
     <% end %>
     <span class="section-name custom-margin2">Daily Coding</span>
     <% daily_names = [ 'coming soon' ] %>
