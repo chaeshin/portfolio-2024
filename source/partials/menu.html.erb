@@ -1,12 +1,14 @@
 <div>
   <div class="d-flex flex-column custom-margin">
-    <%= link_to 'About', '/about.html', :class => "section-name" %>
+    <%= link_to 'About', '../about.html', :relative => true, :class => "section-name" %>
+
     <span class="section-name custom-margin2">Web Development Projects</span>
-    <% data.projects.each_with_index do | project, i| %>
-      <% index = "#{(i+1)}".rjust(3, '0') %>
-      <%= link_to "#{index} | #{project.name}", "../project", :relative => true, :class => "project-name", :locals => { :name => "#{project.name}" } %>
-    <% end %>
+    <%= link_to "001 | Form - Calisthenics App", "../form.html", :relative => true, :class => "project-name" %>
+    <%= link_to "002 | Turbo - Sports Car Rental", "../turbo.html", :relative => true, :class => "project-name" %>
+    <%= link_to "003 | Your Perfect Travel Itinerary", "../travel.html", :relative => true, :class => "project-name" %>
+    <%= link_to "004 | Coin Calculator", "../coin.html", :relative => true, :class => "project-name" %>
+
     <span class="section-name custom-margin2">Daily Coding</span>
-    <% daily_names = [ 'coming soon' ] %>
+
   </div>
 </div>

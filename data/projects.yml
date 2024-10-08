@@ -2,8 +2,8 @@
   description: Decent description of the app
   image: projects/travel.png
   video:
-  tech_stack:
-  role:
+  tech_stack: Ruby, Ruby on Rails, Heroku
+  role: Full-Stack Engineer
   url: https://www.google.com
   github: https://www.github.com
   online: true
@@ -12,18 +12,19 @@
   description: Decent description of the app
   image: projects/form.png
   video:
-  tech_stack:
-  role:
+  tech_stack: Ruby, Ruby on Rails, Heroku
+  role: Full-Stack Engineer
   url: https://www.google.com
   github: https://www.github.com
   online: true
 
-- name: Turbo - Sports Car Rental
+- id: turbo
+  name: Turbo - Sports Car Rental
   description: Decent description of the app
   image: projects/turbo.png
   video:
-  tech_stack:
-  role:
+  tech_stack: Ruby, Ruby on Rails, Heroku
+  role: Full-Stack Engineer
   url: https://www.google.com
   github: https://www.github.com
   online: true
