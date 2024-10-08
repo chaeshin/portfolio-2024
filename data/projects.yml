@@ -1,5 +1,6 @@
-- name: Your Perfect Travel Itinerary
-  description: Decent description of the app
+- id: coin
+  name: Coin Calculator
+  description: Decent description of the app placeholder text longer
   image: projects/travel.png
   video:
   tech_stack: Ruby, Ruby on Rails, Heroku
@@ -8,8 +9,20 @@
   github: https://www.github.com
   online: true
 
-- name: Form - Calisthenics App
-  description: Decent description of the app
+- id: travel
+  name: Your Perfect Travel Itinerary
+  description: Decent description of the app placeholder text longer
+  image: projects/travel.png
+  video:
+  tech_stack: Ruby, Ruby on Rails, Heroku
+  role: Full-Stack Engineer
+  url: https://www.google.com
+  github: https://www.github.com
+  online: true
+
+- id: form
+  name: Form - Calisthenics App
+  description: Form is a calisthenics workout tracker that allows you to record video your exercises, store them as part of your workout log and compare to your past performance.
   image: projects/form.png
   video:
   tech_stack: Ruby, Ruby on Rails, Heroku
@@ -20,7 +33,7 @@
 
 - id: turbo
   name: Turbo - Sports Car Rental
-  description: Decent description of the app
+  description: Turbo is a car rental app that allows you to rent super cars in Japan.
   image: projects/turbo.png
   video:
   tech_stack: Ruby, Ruby on Rails, Heroku
