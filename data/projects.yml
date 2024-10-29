@@ -3,7 +3,7 @@
   description: Form is a calisthenics workout tracker that allows you to record video your exercises, store them as part of your workout log and compare to your past performance.
   image: projects/form.png
   video:
-  tech_stack: Ruby, Ruby on Rails, Heroku
+  tech_stack: Ruby, Ruby on Rails, JavaScript, StimulusJS, Heroku, PostgresSQL, HTML, SCSS
   role: Full-Stack Engineer
   url: https://www.google.com
   github: https://www.github.com
@@ -21,7 +21,7 @@
     - projects/turbo_demo_5.png
     - projects/turbo_demo_6.png
   video: https://youtube.com/embed/lQqnpmAPSS4
-  tech_stack: Ruby, Ruby on Rails, Heroku
+  tech_stack: Ruby, Ruby on Rails, StimulusJS, Heroku, PostgresSQL, Bootstrap, HTML, SCSS
   role: Full-Stack Engineer
   url: https://www.google.com
   github: https://www.github.com
