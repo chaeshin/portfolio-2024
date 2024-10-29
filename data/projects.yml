@@ -1,5 +1,46 @@
-- id: coin
-  name: Coin Calculator
+- id: form
+  name: Form - Calisthenics App
+  description: Form is a calisthenics workout tracker that allows you to record video your exercises, store them as part of your workout log and compare to your past performance.
+  image: projects/form.png
+  video:
+  tech_stack: Ruby, Ruby on Rails, Heroku
+  role: Full-Stack Engineer
+  url: https://www.google.com
+  github: https://www.github.com
+  team: Chaewan Shin, Nicholas Matsumoto, Ryo Imaoka
+  online: true
+
+- id: turbo
+  name: Turbo - Sports Car Rental
+  description: Turbo is a car rental app that allows you to rent super cars in Japan.
+  image:
+    - projects/turbo_demo_1.png
+    - projects/turbo_demo_2.png
+    - projects/turbo_demo_3.png
+    - projects/turbo_demo_4.png
+    - projects/turbo_demo_5.png
+    - projects/turbo_demo_6.png
+  video: https://youtube.com/embed/lQqnpmAPSS4
+  tech_stack: Ruby, Ruby on Rails, Heroku
+  role: Full-Stack Engineer
+  url: https://www.google.com
+  github: https://www.github.com
+  team: Chaewan Shin, Nicholas Matsumoto, Ryo Imaoka
+  online: true
+
+- id: otsuri
+  name: Least Otsuri Calculator
+  description: Decent description of the app placeholder text longer
+  image: projects/travel.png
+  video:
+  tech_stack: Ruby, Ruby on Rails, Heroku
+  role: Full-Stack Engineer
+  url: https://www.google.com
+  github: https://www.github.com
+  online: true
+
+- id: qr
+  name: Sakura QR code Generator
   description: Decent description of the app placeholder text longer
   image: projects/travel.png
   video:
@@ -13,28 +54,6 @@
   name: Your Perfect Travel Itinerary
   description: Decent description of the app placeholder text longer
   image: projects/travel.png
-  video:
-  tech_stack: Ruby, Ruby on Rails, Heroku
-  role: Full-Stack Engineer
-  url: https://www.google.com
-  github: https://www.github.com
-  online: true
-
-- id: form
-  name: Form - Calisthenics App
-  description: Form is a calisthenics workout tracker that allows you to record video your exercises, store them as part of your workout log and compare to your past performance.
-  image: projects/form.png
-  video:
-  tech_stack: Ruby, Ruby on Rails, Heroku
-  role: Full-Stack Engineer
-  url: https://www.google.com
-  github: https://www.github.com
-  online: true
-
-- id: turbo
-  name: Turbo - Sports Car Rental
-  description: Turbo is a car rental app that allows you to rent super cars in Japan.
-  image: projects/turbo.png
   video:
   tech_stack: Ruby, Ruby on Rails, Heroku
   role: Full-Stack Engineer

@@ -21,7 +21,7 @@ $headers-font: "Source Serif  4";
 .project-name {
   font-family: "Source Sans 3", sans-serif;
   font-size: 20px;
-  margin-left: 12px;
+  margin-left: 20px;
   font-weight: 250;
   color: #3b8586;
   text-decoration: none;
@@ -33,7 +33,7 @@ $headers-font: "Source Serif  4";
   font-size: 36px;
   font-style: Italic;
   font-weight: 250;
-  margin-left: 12px;
+  margin-left: 20px;
 }
 
 
@@ -63,15 +63,26 @@ $headers-font: "Source Serif  4";
   font-family: "Source Sans 3", sans-serif;
   color: #3b8586;
   font-size: 16px;
-  margin-left: 12px;
+  margin-left: 20px;
   font-weight: 250;
+  background-color: #3b85861f;
+  text-decoration: none;
+  display: inline-block;
+}
+.project-descriptions {
+  font-family: "Source Sans 3", sans-serif;
+  color: #3b8586;
+  font-size: 16px;
+  // margin-left: 20px;
+  font-weight: 250;
+  margin-bottom: 12px;
   background-color: #3b85861f;
   text-decoration: none;
   display: inline-block;
 }
 
 .paragraph {
-  font-family: "Source Serif 4", serif;
+  font-family: "Source Sans 3", sans-serif;
   color: #3b8586;
   font-size: 16px;
   font-weight: 250;
@@ -88,4 +99,12 @@ $headers-font: "Source Serif  4";
 
 .custom-margin12{
   margin-top: 12px;
+}
+
+.custom-margin-bottom{
+  margin-bottom: 100px;
+}
+
+.custom-margin40 {
+  margin-top: 40px;
 }
