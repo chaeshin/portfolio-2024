@@ -1,17 +1,31 @@
 - id: form
   name: Form - Calisthenics App
   description: Form is a calisthenics workout tracker that allows you to record video your exercises, store them as part of your workout log and compare to your past performance.
-  image: projects/form.png
-  video:
+  image:
+    - projects/Form_demo_1.png
+    - projects/Form_demo_2.png
+    - projects/Form_demo_3.png
+    - projects/Form_demo_4.png
+    - projects/Form_demo_5.png
+    - projects/Form_demo_7.png
+    - projects/Form_demo_8.png
+    - projects/Form_demo_9.png
+    - projects/Form_demo_10.png
+    - projects/Form_demo_11.png
+    - projects/Form_demo_12.png
+  display: iPhoneX
+  partial: partials/iphonex
+  video: https://youtube.com/embed/okDJtX5TVDo
   tech_stack: Ruby, Ruby on Rails, JavaScript, StimulusJS, Heroku, PostgresSQL, HTML, SCSS
   role: Full-Stack Engineer
-  url: https://www.google.com
-  github: https://www.github.com
+  url: https://form-calisthenics-fb264cc22839.herokuapp.com/
+  github: https://github.com/chaeshin/form-calisthenics
   team: Chaewan Shin, Nicholas Matsumoto, Ryo Imaoka
+  note: This application is optimized for mobile devices. For the best experience, please access it on an Android device or switch to mobile view on your browser by pressing F12 and then Ctrl (Command) + Shift + M. Thank you!
   online: true
 
 - id: turbo
-  name: Turbo - Sports Car Rental
+  name: Turbo - Rent your dream car today!
   description: Turbo is a car rental app that allows you to rent super cars in Japan.
   image:
     - projects/turbo_demo_1.png
@@ -20,11 +34,13 @@
     - projects/turbo_demo_4.png
     - projects/turbo_demo_5.png
     - projects/turbo_demo_6.png
+  display: iMac
+  partial: partials/imac
   video: https://youtube.com/embed/lQqnpmAPSS4
   tech_stack: Ruby, Ruby on Rails, StimulusJS, Heroku, PostgresSQL, Bootstrap, HTML, SCSS
   role: Full-Stack Engineer
-  url: https://www.google.com
-  github: https://www.github.com
+  url: https://turbo-car-rental-24ec29a2c9e5.herokuapp.com/
+  github: https://github.com/chaeshin/turbo
   team: Chaewan Shin, Nicholas Matsumoto, Ryo Imaoka
   online: true
 
