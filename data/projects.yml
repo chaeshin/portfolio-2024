@@ -43,36 +43,3 @@
   github: https://github.com/chaeshin/turbo
   team: Chaewan Shin, Nicholas Matsumoto, Ryo Imaoka
   online: true
-
-- id: otsuri
-  name: Least Otsuri Calculator
-  description: Decent description of the app placeholder text longer
-  image: projects/travel.png
-  video:
-  tech_stack: Ruby, Ruby on Rails, Heroku
-  role: Full-Stack Engineer
-  url: https://www.google.com
-  github: https://www.github.com
-  online: true
-
-- id: qr
-  name: Sakura QR code Generator
-  description: Decent description of the app placeholder text longer
-  image: projects/travel.png
-  video:
-  tech_stack: Ruby, Ruby on Rails, Heroku
-  role: Full-Stack Engineer
-  url: https://www.google.com
-  github: https://www.github.com
-  online: true
-
-- id: travel
-  name: Your Perfect Travel Itinerary
-  description: Decent description of the app placeholder text longer
-  image: projects/travel.png
-  video:
-  tech_stack: Ruby, Ruby on Rails, Heroku
-  role: Full-Stack Engineer
-  url: https://www.google.com
-  github: https://www.github.com
-  online: true
