@@ -13,7 +13,7 @@
     - projects/Form_demo_10.png
     - projects/Form_demo_11.png
     - projects/Form_demo_12.png
-  display: iPhoneX
+  device: iPhoneX
   partial: partials/iphonex
   video: https://youtube.com/embed/okDJtX5TVDo
   tech_stack: Ruby, Ruby on Rails, JavaScript, StimulusJS, Heroku, PostgresSQL, HTML, SCSS
@@ -34,7 +34,7 @@
     - projects/turbo_demo_4.png
     - projects/turbo_demo_5.png
     - projects/turbo_demo_6.png
-  display: iMac
+  device: iMac
   partial: partials/imac
   video: https://youtube.com/embed/lQqnpmAPSS4
   tech_stack: Ruby, Ruby on Rails, StimulusJS, Heroku, PostgresSQL, Bootstrap, HTML, SCSS
