@@ -36,6 +36,11 @@
   @include transition($carousel-transition);
 }
 
+.carousel-item-mobile {
+  border-radius: 25px 25px 25px 25px;
+  overflow: hidden;
+}
+
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {

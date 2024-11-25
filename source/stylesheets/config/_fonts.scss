@@ -25,6 +25,10 @@ $headers-font: "Source Serif  4";
   font-weight: 250;
   color: #3b8586;
   text-decoration: none;
+
+  &:hover {
+    color: #3b8586b0;
+  }
 }
 
 .name {
@@ -34,9 +38,16 @@ $headers-font: "Source Serif  4";
   font-style: Italic;
   font-weight: 250;
   margin-left: 20px;
+  text-decoration: none;
+
+  &:hover {
+    color: #3b8586b0;
+  }
 }
 
-
+.project-name-with-links{
+  width: 80%;
+}
 
 .project-name-heading {
   font-family: "Source Serif 4", serif;
@@ -69,6 +80,22 @@ $headers-font: "Source Serif  4";
   text-decoration: none;
   display: inline-block;
 }
+
+.about {
+  font-family: "Source Sans 3", sans-serif;
+  color: #3b8586;
+  font-size: 16px;
+  margin-left: 20px;
+  font-weight: 250;
+  background-color: #3b85861f;
+  text-decoration: none;
+  display: inline-block;
+
+  &:hover {
+    color: #3b8586b0;
+  }
+}
+
 .project-descriptions {
   font-family: "Source Sans 3", sans-serif;
   color: #3b8586;
@@ -81,13 +108,37 @@ $headers-font: "Source Serif  4";
   display: inline-block;
 }
 
+.project-link-text {
+  display: block; /* Places the text on a new line */
+  margin-top: 10px; /* Adds some space between the iframe and the link */
+  color: #3b8586; /* Adjust link color */
+  text-decoration: none; /* Optional: Remove underline */
+  font-size: 16px;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 250;
+}
+
+.project-link-text {
+  display: block; /* Places the text on a new line */
+  margin-top: 10px; /* Adds some space between the iframe and the link */
+  color: #3b8586; /* Adjust link color */
+  text-decoration: none; /* Optional: Remove underline */
+  font-size: 16px;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 250;
+
+  &:hover {
+    color: #3b8586b0;
+  }
+}
+
 .paragraph {
   font-family: "Source Sans 3", sans-serif;
   color: #3b8586;
   font-size: 16px;
   font-weight: 250;
   white-space: pre-line;
-  width: 90%;
+  width: 80%;
 }
 
 .custom-margin2 {
@@ -103,9 +154,13 @@ $headers-font: "Source Serif  4";
 }
 
 .custom-margin-bottom{
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .custom-margin40 {
   margin-top: 40px;
+}
+
+.custom-margin80 {
+  margin-top: 80px;
 }

@@ -2,8 +2,13 @@
   <div>
     <!-- About Section -->
     <span class="project-name-heading">Featured Projects</span>
-    <div class="custom-margin">
-
+    <div class="custom-margin custom-margin-bottom">
+      <% data.projects.each do |project| %>
+        <div class="frame custom-margin80">
+          <iframe class="responsive-iframe" src=<%= "#{project.video}" %> frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div><%= link_to project.name, "../#{project.id}.html", :relative => true, :class => "project-link-text" %></div>
+      <% end %>
     </div>
   </div>
 </div>

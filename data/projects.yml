@@ -1,20 +1,20 @@
 - id: form
   name: Form - Calisthenics App
-  description: Form is a calisthenics workout tracker that allows you to record video your exercises, store them as part of your workout log and compare to your past performance.
+  description: Form is a calisthenics workout tracker that allows you to record video of your exercises, store them as part of your workout log and compare to your past performance.
   image:
     - projects/Form_demo_1.png
     - projects/Form_demo_2.png
     - projects/Form_demo_3.png
     - projects/Form_demo_4.png
     - projects/Form_demo_5.png
+    - projects/Form_demo_6.png
     - projects/Form_demo_7.png
     - projects/Form_demo_8.png
     - projects/Form_demo_9.png
     - projects/Form_demo_10.png
     - projects/Form_demo_11.png
-    - projects/Form_demo_12.png
-  device: iPhoneX
-  partial: partials/iphonex
+  device: phone
+  device_wrapper: device-wrapper-phone
   video: https://youtube.com/embed/okDJtX5TVDo
   tech_stack: Ruby, Ruby on Rails, JavaScript, StimulusJS, Heroku, PostgresSQL, HTML, SCSS
   role: Full-Stack Engineer
@@ -34,8 +34,8 @@
     - projects/turbo_demo_4.png
     - projects/turbo_demo_5.png
     - projects/turbo_demo_6.png
-  device: iMac
-  partial: partials/imac
+  device: desktop
+  device_wrapper: device-wrapper-desktop
   video: https://youtube.com/embed/lQqnpmAPSS4
   tech_stack: Ruby, Ruby on Rails, StimulusJS, Heroku, PostgresSQL, Bootstrap, HTML, SCSS
   role: Full-Stack Engineer

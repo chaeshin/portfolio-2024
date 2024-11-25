@@ -59,13 +59,16 @@
 
 .external-link {
   opacity: 0;
-  color: #3b8586;
+  color: #3b8586d3;
   transition: opacity 1s;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
   &:hover {
     cursor: pointer;
-    color: $gray
+    color: #3b8586a4;
   }
 }
 
@@ -96,7 +99,7 @@
     grid-template-columns: 1fr;
   }
   .external-link {
-    opacity: 0;
+    opacity: 1;
   }
 }
 
