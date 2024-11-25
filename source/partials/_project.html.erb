@@ -1,24 +1,18 @@
 <% puts "Project ID: #{project_id}" %>
 <% project = data.projects.find { |p| p.id == project_id } %>
 <div class="container">
-  <div class="project-name-with-links d-flex align-item-center justify-content-between">
-    <div>
-      <span class="project-name-heading"><%= "#{project.name}" %></span>
-    </div>
-    <div class="d-flex align-item-center">
-      <% link_to project.github, class: 'external-link', target: '_blank' do %>
-        <i class="fa-brands fa-github fa-xl"></i>
-      <% end %>
-      <% if project.online? %>
-        <% link_to project.url, class: 'external-link', target: '_blank' do %>
-          <i class="fas fa-external-link-alt fa-xl"></i>
-        <% end %>
-      <% end %>
-    </div>
+  <div class="project-name-with-links">
+    <span class="project-name-heading"><%= "#{project.name}" %></span>
+
+
   </div>
 
+
+
   <div class="custom-margin">
-    <div class="paragraph"><div><span class="project-descriptions">Description </span><span> | <%= project.description %></span></div>
+    <div class="paragraph">
+      <div><span class="project-descriptions">Links </span><span> | <% link_to project.github, class: 'external-link', target: '_blank' do %><i class="fa-brands fa-github fa-lg"></i><% end %><% if project.online? %><% link_to project.url, class: 'external-link', target: '_blank' do %><i class="fas fa-external-link-alt fa-lg"></i><% end %><% end %></span></div>
+      <div><span class="project-descriptions">Description </span><span> | <%= project.description %></span></div>
       <div><span class="project-descriptions">Tech Stack </span><span> | <%= project.tech_stack %></span></div>
       <div><span class="project-descriptions">Role </span><span> | <%= project.role %></span></div>
       <div><span class="project-descriptions">Team </span><span> | <%= project.team %></span></div>
@@ -28,12 +22,12 @@
 
     </div>
 
-    <div>
+    <div class="custom-margin-right">
       <div class="frame custom-margin40">
         <iframe class="responsive-iframe" src=<%= "#{project.video}" %> frameborder="0" allowfullscreen></iframe>
       </div>
 
-      <div class="custom-margin80 custom-margin-bottom">
+      <div class="custom-margin80 custom-margin-bottom d-flex justify-content-center">
         <div class=<%= "#{project.device_wrapper}" %>>
           <div class='<%= "device #{project.device}" %>'>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
